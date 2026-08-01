@@ -1,3 +1,5 @@
+#binary search
+
 print("Binary and linear search")
 print()
 A= [ 10, 20, 30, 40,50]
