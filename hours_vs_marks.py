@@ -11,3 +11,7 @@ model.fit(X, y)
 # Predict marks for 6 hours of study
 prediction = model.predict([[6]])
 print("Predicted marks:", prediction[0])
+
+# A few more predictions at once
+for h in [8, 9, 10]:
+    print(f"{h} hours -> predicted marks: {model.predict([[h]])[0]:.2f}")
